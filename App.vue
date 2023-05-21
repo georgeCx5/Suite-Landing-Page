@@ -73,11 +73,11 @@ export default {
         <FeaturesText text1="1.2M" text2="Leads" />
       </div>
     </header>
-    <main class=" relative flex flex-col items-center h-[929px] tb:h-[865px]">
+    <main class=" relative flex flex-col items-center h-[929px] tb:h-[865px] dsk:h-[590px]">
       <img class=" absolute top-2 z-50" :src="jeremySmallImg" alt="jeremySmallImg">
       <!-- bg-light-blue -->
-      <div class=" absolute bottom-0 flex h-[748px] tb:h-[684px] bg-neo-dark-blue tb:mx-10 rounded-[15px] z-30">
-        <div class=" flex flex-col items-center gap-[37px] pt-[261px]">
+      <div class=" absolute bottom-0 flex h-[748px] tb:h-[684px] bg-neo-dark-blue tb:mx-10 dsk:mx-[167px] rounded-[15px] z-30">
+        <div class=" flex flex-col dsk:flex-row items-center gap-[37px] dsk:w-[467px] dsk:h-[369px] pt-[261px]">
           <img class=" w-[49px] h-[40px]" :src="curvedCream" alt="curvedCream">
           <div class=" flex flex-col justify-between h-[346px] tb:h-[282px] text-center">
             <h2 class=" text-neo-cream-white text-[40px] dsk:text-[48px] leading-[48px] tracking-[-0.42px]">It just <span
