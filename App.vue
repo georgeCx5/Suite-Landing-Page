@@ -80,10 +80,10 @@ export default {
       </div>
     </header>
     <main class=" relative flex flex-col items-center h-[929px] tb:h-[865px] dsk:h-[600px]">
-      <img class=" absolute top-2 dsk:top-auto dsk:bottom-0 dsk:left-[20%] dsk:w-[360px] z-50" :src="jeremySmallImg"
-        alt="jeremySmallImg">
-      <img class=" absolute top-24 tb:top-8 dsk:top-auto dsk:bottom-0 dsk:left-[15%] w-[500px]  z-40" :src="blurEffect"
-        alt="blurEffect">
+      <div class=" flex justify-center dsk:justify-start w-full h-full bg-red-300">
+        <img class=" absolute top-2 bg-green-300 opacity-50 z-50" :src="jeremySmallImg" alt="jeremySmallImg">
+        <img class=" absolute bg-green-300 z-40" :src="blurEffect" alt="blurEffect">
+      </div>
       <!-- bg-light-blue -->
       <div
         class=" absolute bottom-0 flex dsk:justify-end dsk:w-[1109px] h-[748px] tb:h-[684px] dsk:h-[545px] bg-neo-dark-blue tb:mx-10 dsk:mx-[167px] rounded-[15px] z-30">
