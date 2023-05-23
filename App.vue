@@ -80,16 +80,20 @@ export default {
       </div>
     </header>
     <main class=" relative flex flex-col items-center h-[929px] tb:h-[865px] dsk:h-[600px]">
-      <div class=" flex justify-center dsk:justify-start w-full h-full bg-red-300">
-        <img class=" absolute top-2 bg-green-300 opacity-50 z-50" :src="jeremySmallImg" alt="jeremySmallImg">
-        <img class=" absolute bg-green-300 z-40" :src="blurEffect" alt="blurEffect">
+      <!-- Jeremy IMG -->
+      <div
+        class=" absolute top-2 dsk:top-0 dsk:left-[20%] flex justify-center dsk:justify-start w-full h-full dsk:w-[700px]">
+        <img class=" h-fit w-fit dsk:h-full z-50" :src="jeremySmallImg" alt="jeremySmallImg">
+        <img
+          class=" absolute top-28 tb:top-24 dsk:top-8 dsk:-left-[155px] w-[356px] tb:w-[384px] dsk:w-[100%] opacity-50 tb:opacity-60 dsk:opacity-70 z-40"
+          :src="blurEffect" alt="blurEffect">
       </div>
       <!-- bg-light-blue -->
       <div
         class=" absolute bottom-0 flex dsk:justify-end dsk:w-[1109px] h-[748px] tb:h-[684px] dsk:h-[545px] bg-neo-dark-blue tb:mx-10 dsk:mx-[167px] rounded-[15px] z-30">
         <div
           class=" flex flex-col dsk:flex-row items-center gap-[37px] dsk:gap-[53px] pt-[261px] dsk:pt-0 dsk:pr-[125px]">
-          <img class=" w-[49px] dsk:w-[64px] h-[40px] dsk:h-[52px]" :src="curvedCream" alt="curvedCream">
+          <img class=" w-[49px] dsk:w-[64px] h-[40px] dsk:h-[52px] dsk:-mt-40" :src="curvedCream" alt="curvedCream">
           <div
             class=" flex flex-col justify-between dsk:w-[350px] h-[346px] tb:h-[282px] dsk:h-[369px] text-center dsk:text-left">
             <h2 class=" text-neo-cream-white text-[40px] dsk:text-[48px] leading-[48px] tracking-[-0.42px]">It just <span
